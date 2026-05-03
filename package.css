@@ -1,0 +1,214 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background: #0b0f1a;
+color: white;
+}
+
+/* NAVBAR */
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 20px 8%;
+align-items: center;
+}
+
+.logo span {
+color: #1e6cff;
+}
+
+.navbar nav a {
+margin: 0 15px;
+text-decoration: none;
+color: white;
+opacity: 0.7;
+}
+
+.navbar nav a.active {
+opacity: 1;
+border-bottom: 2px solid #1e6cff;
+}
+
+.phone {
+background: #1e6cff;
+padding: 10px 15px;
+border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+display: flex;
+padding: 60px 8%;
+align-items: center;
+}
+
+.hero-text {
+flex: 1;
+}
+
+.hero-text h4 {
+color: #1e6cff;
+}
+
+.hero-text h1 {
+font-size: 40px;
+margin: 10px 0;
+}
+
+.hero-text span {
+color: #1e6cff;
+}
+
+.hero-features span {
+display: inline-block;
+margin-right: 20px;
+margin-top: 15px;
+}
+
+.hero-image {
+flex: 1;
+height: 350px;
+background: url('hero-car.jpg') center/cover no-repeat;
+border-radius: 10px;
+}
+
+/* PACKAGES */
+.packages {
+padding: 60px 8%;
+text-align: center;
+}
+
+.cards {
+display: flex;
+gap: 25px;
+margin-top: 40px;
+}
+
+.card {
+background: #111827;
+padding: 20px;
+border-radius: 15px;
+flex: 1;
+position: relative;
+border: 1px solid #1e6cff33;
+}
+
+.featured {
+border: 2px solid #1e6cff;
+box-shadow: 0 0 20px #1e6cff55;
+}
+
+.badge {
+position: absolute;
+top: 15px;
+right: 15px;
+background: gray;
+padding: 5px 10px;
+border-radius: 5px;
+font-size: 12px;
+}
+
+.badge.blue {
+background: #1e6cff;
+}
+
+.badge.gold {
+background: gold;
+color: black;
+}
+
+.card-img {
+height: 150px;
+border-radius: 10px;
+margin: 15px 0;
+background-size: cover;
+}
+
+.img1 { background: url('int1.jpg') center/cover; }
+.img2 { background: url('car1.jpg') center/cover; }
+.img3 { background: url('int2.jpg') center/cover; }
+
+.card ul {
+text-align: left;
+margin: 15px 0;
+}
+
+.card li {
+margin-bottom: 8px;
+font-size: 14px;
+}
+
+.price {
+margin: 20px 0;
+}
+
+.price span {
+font-size: 28px;
+color: #1e6cff;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background: #1e6cff;
+border: none;
+border-radius: 8px;
+color: white;
+cursor: pointer;
+}
+
+/* ADDONS */
+.addons {
+padding: 50px 8%;
+text-align: center;
+}
+
+.addon-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+margin-top: 20px;
+}
+
+.addon-grid div {
+background: #111827;
+padding: 15px;
+border-radius: 10px;
+}
+
+.addon-grid span {
+display: block;
+color: #1e6cff;
+margin-top: 5px;
+}
+
+/* CTA */
+.cta {
+padding: 60px 8%;
+text-align: center;
+}
+
+.primary {
+background: #1e6cff;
+padding: 12px 20px;
+border-radius: 8px;
+}
+
+.secondary {
+border: 1px solid #1e6cff;
+background: transparent;
+padding: 12px 20px;
+margin-left: 10px;
+color: white;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+opacity: 0.6;
+}
